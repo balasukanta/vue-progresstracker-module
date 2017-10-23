@@ -74,7 +74,7 @@
     "bulma",
     "vue-bulma",
     "vue-bulma-component",
-    "vue-bulma-progress-tracker",
+    "vue-custom-progresstracker",
     "progress-tracker",
     "progress",
     "timeline",
@@ -82,7 +82,7 @@
   ],
   "license": "MIT",
   "main": "src/index.js",
-  "name": "vue-bulma-progress-tracker",
+  "name": "vue-custom-progresstracker",
   "optionalDependencies": {},
   "peerDependencies": {
     "bulma": ">=0.2",
