@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "git+https://git@github.com/SukantaBala28/progress-tracker.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git+https://git@github.com/SukantaBala28/progress-tracker.git",
+        "spec": "git+https://git@github.com/SukantaBala28/progress-tracker.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:SukantaBala28/progress-tracker.git",
+          "sshUrl": "git+ssh://git@github.com/SukantaBala28/progress-tracker.git",
+          "httpsUrl": "git+https://git@github.com/SukantaBala28/progress-tracker.git",
+          "gitUrl": "git://git@github.com/SukantaBala28/progress-tracker.git",
+          "shortcut": "github:SukantaBala28/progress-tracker",
+          "directUrl": "https://git@raw.githubusercontent.com/SukantaBala28/progress-tracker/master/package.json"
+        }
+      },
+      "E:\\changevu"
+    ]
+  ],
+  "_from": "git+https://git@github.com/SukantaBala28/progress-tracker.git",
+  "_id": "vue-bulma-progress-tracker@0.0.4",
+  "_inCache": true,
+  "_location": "/vue-bulma-progress-tracker",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "git+https://git@github.com/SukantaBala28/progress-tracker.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git+https://git@github.com/SukantaBala28/progress-tracker.git",
+    "spec": "git+https://git@github.com/SukantaBala28/progress-tracker.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:SukantaBala28/progress-tracker.git",
+      "sshUrl": "git+ssh://git@github.com/SukantaBala28/progress-tracker.git",
+      "httpsUrl": "git+https://git@github.com/SukantaBala28/progress-tracker.git",
+      "gitUrl": "git://git@github.com/SukantaBala28/progress-tracker.git",
+      "shortcut": "github:SukantaBala28/progress-tracker",
+      "directUrl": "https://git@raw.githubusercontent.com/SukantaBala28/progress-tracker/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://git@github.com/SukantaBala28/progress-tracker.git#a1b42756224aa5c7b2fe0ebc62ce27765962ca56",
+  "_shasum": "109e3e2e59f49c983027ad4d8ed7ff0508c88abd",
+  "_shrinkwrap": null,
+  "_spec": "git+https://git@github.com/SukantaBala28/progress-tracker.git",
+  "_where": "E:\\changevu",
+  "author": {
+    "name": "Fangdun Cai",
+    "email": "cfddream@gmail.com",
+    "url": "fundon.me"
+  },
+  "bugs": {
+    "url": "https://github.com/vue-bulma/progress-tracker/issues"
+  },
+  "dependencies": {
+    "progress-tracker": "1.0.0"
+  },
+  "description": "ProgressTracker component is based on progress-tracker for Vue Bulma",
+  "devDependencies": {},
+  "gitHead": "a1b42756224aa5c7b2fe0ebc62ce27765962ca56",
+  "homepage": "https://github.com/vue-bulma/progress-tracker#readme",
+  "keywords": [
+    "vue",
+    "bulma",
+    "vue-bulma",
+    "vue-bulma-component",
+    "vue-bulma-progress-tracker",
+    "progress-tracker",
+    "progress",
+    "timeline",
+    "tracker"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "vue-bulma-progress-tracker",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "bulma": ">=0.2",
+    "vue": ">=2"
+  },
+  "readme": "# ProgressTracker\r\n\r\nProgressTracker component is based on [progress-tracker](http://nigelotoole.github.io/progress-tracker/) for Vue Bulma.\r\n\r\n\r\n## Installation\r\n\r\n```\r\n$ npm install vue-bulma-progress-tracker --save\r\n```\r\n\r\n\r\n## Examples\r\n\r\n```vue\r\n<template>\r\n  <progress-tracker>\r\n    <step-item v-for=\"n in [1, 2, 3, 4, 5]\" :is-complete=\"n < 3\" :is-active=\"n === 3\"></step-item>\r\n  </progress-tracker>\r\n</template>\r\n\r\n<script>\r\nimport ProgressTracker, { StepItem } from 'vue-bulma-progress-tracker'\r\n\r\nexport default {\r\n  components: {\r\n    ProgressTracker,\r\n    StepItem\r\n  }\r\n}\r\n</script>\r\n```\r\n\r\n\r\n## Badges\r\n\r\n![](https://img.shields.io/badge/license-MIT-blue.svg)\r\n![](https://img.shields.io/badge/status-stable-green.svg)\r\n\r\n---\r\n\r\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\r\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\r\n> Twitter [@_fundon](https://twitter.com/_fundon)\r\n\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vue-bulma/progress-tracker.git"
+  },
+  "version": "0.0.4"
+}
