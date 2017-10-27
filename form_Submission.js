@@ -84,3 +84,4 @@ function loaded() {
   var form = document.getElementById('googleFormAssessment');
   form.addEventListener("submit", handleFormSubmit, false);
 };
+document.addEventListener('DOMContentLoaded', loaded, false);
